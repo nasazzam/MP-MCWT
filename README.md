@@ -46,7 +46,6 @@ Upon launch, the tool prompts for:
 
 Click **"Auto Detect Missing"** to:
 - Automatically detect missing bounding boxes.
-- Propagate consistent object IDs across all loaded camera views.
 
 > 🧬 Useful for speeding up the annotation process and reducing manual effort.
 
@@ -63,11 +62,10 @@ Before quitting:
 Edit the `checkpoint_frame.json` manually and set your desired frame index.
 
 ---
+## 📤 Export
 
-## 🧾 Annotation Format
-
-- Stored as JSON or compatible with popular MOT-style annotation formats.
-- Each file is named per camera and frame, including bounding boxes and IDs.
+- Store annotation file, compatible with popular MOT-style annotation formats.
+- Each file is named per camera and frame, including bounding boxes and IDs etc.
 
 ---
 
@@ -75,8 +73,9 @@ Edit the `checkpoint_frame.json` manually and set your desired frame index.
 
 - 🎨 Refine the UI layout and interaction responsiveness
 - 🧬 Improve local/global **re-identification logic**
-- 🤖 Add more automatic features (suggestions welcome!)
+- 🧾 Add more annotation format for output. 
 - 🧠 Incorporate **AI tracking & association** across cameras
+- 🤖 Add more automatic features (suggestions welcome!)
 
 ---
 
@@ -99,20 +98,10 @@ Edit the `checkpoint_frame.json` manually and set your desired frame index.
 
 ---
 
-## 📤 Export
-
-Annotations are saved frame-wise and can be used in:
-
-- MOT Challenge
-- ReID datasets
-- Custom training pipelines
-
----
-
 ## ❤️ Contributions & Feedback
 
 Suggestions, improvements or question are welcome!  
-Please [open an issue](#) directly to contribute to this evolving tool.
+Please [open an issue](https://github.com/nasazzam/MC-MOT-Annotation-Tool/issues) directly to contribute to this evolving tool.
 
 ---
 
