@@ -8,11 +8,11 @@ A **semi-automatic multi-camera annotation system** designed to help you efficie
 
 ## ✨ Features
 
-- 🗂 **Multi-video loader** with synchronized playback
+- 🗂 **Multi-video loader** with synchronized playback frames
 - 📦 **Annotation creator & editor** with full mouse controls
 - 🧠 **Auto-detection** and cross-camera ID propagation
 - 🧭 **Resume progress** with checkpointing
-- 🧰 Designed for both **manual precision** and **automated speed**
+- 🧰 Designed for combined **manual precision** and **automated speed**
 
 ---
 
@@ -24,7 +24,7 @@ Upon launch, the tool prompts for:
 
 - 🎞️ **Video Folder** – Select the folder containing your camera videos.
 - 📝 **Annotation Folder** – Choose a folder to load/save annotations.  
-   *If not provided, the tool creates it automatically in the same video folder.*
+   *If annotation files in MOT-Sytle not provided, the tool creates it automatically in the same video folder.*
 
 > 💡 **Tip:** Set the **same folder** for input/output annotations to avoid losing progress.
 
@@ -101,7 +101,7 @@ Edit the `checkpoint_frame.json` manually and set your desired frame index.
 ## ❤️ Contributions & Feedback
 
 Suggestions, improvements or question are welcome!  
-Please [open an issue](https://github.com/nasazzam/MC-MOT-Annotation-Tool/issues) directly to contribute to this evolving tool.
+Please [open an issue](https://github.com/nasazzam/MC-MOT-Annotation-Tool/issues) or [pull request](https://github.com/nasazzam/MC-MOT-Annotation-Tool/pulls) directly to contribute to this evolving tool.
 
 ---
 
