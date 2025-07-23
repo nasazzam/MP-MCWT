@@ -4,6 +4,8 @@ from tkinter import filedialog, messagebox, simpledialog
 import cv2
 import os
 import numpy as np
+from tkinter import PhotoImage
+
 
 from ultralytics import YOLO  # use pretrained YOLOv8
 
@@ -36,7 +38,8 @@ class MOTAnnotationEditor:
     def __init__(self, root):
         self.root = root
         self.root.title("MC-MOT Annotation Tool")
-        self.root.iconbitmap("assets/app_icon.ico")  
+        icon = PhotoImage(file="assets/app_icon.png")
+        self.root.iconphoto(True, icon) 
 
         # Enable resizing
         self.root.grid_rowconfigure(5, weight=1)
