@@ -114,10 +114,10 @@ Please [open an issue](https://github.com/nasazzam/MC-MOT-Annotation-Tool/issues
 If you use this tool in your research or publications, please cite the following paper:
 
 ```bibtex
-@inproceedings{yourlastname2025multicamera,
+@inproceedings{khan2025multicamera,
   title     = {MP-MCWT: Message Passing Strategy For Multi-Camera Worker Tracking in Construction},
   author    = {Nasrullah Khan, Dohyeong Kim, Minju Kim, Daeho Kim, Dongmin Lee},
-  journal = {},
+  journal = {Automation in Construction},
   year      = {2025},
-  url       = {https://mypaperlink.com},
+  note    = {Under review},
 }
