@@ -122,9 +122,9 @@ If you use this tool in your research or publications, please cite the following
 
 ```bibtex
 @inproceedings{yourlastname2025multicamera,
-  title     = {Multi-Camera Semi-Automatic Annotation Tool for Identity-Preserving Object Tracking},
-  author    = {Your Name and Co-author Name},
-  booktitle = {Proceedings of the XYZ Conference on Computer Vision},
+  title     = {MP-MCWT: Message Passing Strategy For Multi-Camera Worker Tracking in Construction},
+  author    = {Nasrullah Khan, Dohyeong Kim, Minju Kim, Daeho Kim, Dongmin Lee},
+  journal = {Proceedings of the XYZ Conference on Computer Vision},
   year      = {2025},
-  url       = {https://yourpaperlink.com},
+  url       = {https://mypaperlink.com},
 }
