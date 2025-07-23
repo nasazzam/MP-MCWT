@@ -113,7 +113,7 @@ If you use this tool in your research or publications, please cite the following
 @inproceedings{yourlastname2025multicamera,
   title     = {MP-MCWT: Message Passing Strategy For Multi-Camera Worker Tracking in Construction},
   author    = {Nasrullah Khan, Dohyeong Kim, Minju Kim, Daeho Kim, Dongmin Lee},
-  journal = {Proceedings of the XYZ Conference on Computer Vision},
+  journal = {},
   year      = {2025},
   url       = {https://mypaperlink.com},
 }
