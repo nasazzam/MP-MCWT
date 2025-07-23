@@ -88,20 +88,13 @@ Edit the `checkpoint_frame.json` manually and set your desired frame index.
 
 ---
 
-## 📷 Description
-
-A **semi-automatic multi-camera annotation tool** that loads multiple video streams and displays them in a **canvas grid layout**.  
-This enables side-by-side comparison, tracking, and annotation of the same object from multiple views.  
-It supports bounding box creation, ID management, and object re-identification across all cameras.
-
----
-
 ## 🛠 Requirements
 
 - Python 3.7+
 - Tkinter
 - OpenCV
 - NumPy
+- torchreid
 - [Optional] PyTorch / YOLO model for Auto Detection (if implemented)
 
 ---
