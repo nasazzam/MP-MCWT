@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Multi-Camera Annotation Tool" width="400"/>
+</p>
+
 # 🎥 Multi-Camera MOT Annotation Tool
 
 A **semi-automatic multi-camera annotation system** designed to help you efficiently annotate, track, and re-identify objects across multiple synchronized camera views.
