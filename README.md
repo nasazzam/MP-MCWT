@@ -1,11 +1,13 @@
+
+
+
 <p align="center">
   <img src="assets/banner.png" alt="Multi-Camera Annotation Tool" width="400"/>
 </p>
 
 # 🎥 Multi-Camera MOT Annotation Tool
 
-A **semi-automatic multi-camera annotation system** designed to help you efficiently annotate, track, and re-identify objects across multiple synchronized camera views.
-
+A **semi-automatic multi-camera annotation tool** that loads multiple video streams and displays them in a canvas grid layout. This enables side-by-side comparison, tracking, and annotation of the same object from multiple views. It supports bounding box creation, ID management, and object re-identification across all cameras, designed to help you efficiently annotate, track, and re-identify objects across multiple camera views.
 > 🛠️ Ideal for **multi-camera tracking datasets**, such as MOT, ReID, and surveillance scenarios.
 
 ---
