@@ -21,6 +21,22 @@ The dataset consists of:
 - **Images**: Raw frames captured from multiple construction site cameras.
 - **Annotations**: Corresponding tracking annotations folder for gt and pred.
 
+## 🔗 Download Links
+- 📷 **Images**: [Google Drive Link](https://drive.google.com/drive/folders/1nvm1ACDlEFRBNd4Pj2XfU_EeDPr9u96_?usp=sharing1)  
+- 🗒️ **Annotations**: [Google Drive Link](https://drive.google.com/drive/folders/1U7jVx6r-dZfAcwdzVtlL1lFD_7wOX-i1?usp=sharing1)   (place them in data folder)
+
+
+## 📂 Repository Structure
+```text
+├── data/ # Dataset 
+├── model/ # (model for annotation)
+├── annotatior.py # annotation tool script
+├── checkpoint_frame.json/ # Store history for annotation tool
+├── cmd.txt # one-line command for eval script
+├── eval.py # Evaluation script
+└── README.md # Project documentation
+```
+
 
 ================================ Annotations Tool ================================
 
