@@ -42,7 +42,7 @@ The dataset consists of:
 > git clone https://github.com/username/MP-MCWT.git
 cd MP-MCWT
 pip install pymotmetrics
-run cmd.txt
+run from cmd.txt
 ```
 
 
