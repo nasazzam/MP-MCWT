@@ -22,7 +22,7 @@ The dataset consists of:
 - **Annotations**: Corresponding tracking annotations folder for gt and pred.
 
 
-================================================= Annotations Tool =====================================================
+================================ Annotations Tool ================================
 
 ## 🎥 Multi-Camera MOT Annotation Tool
 
