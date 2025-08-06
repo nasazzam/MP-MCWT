@@ -5,7 +5,7 @@ Official repository for the paper:
 **"MP-MCWT: Message Passing Strategy For Multi-Camera Worker Tracking in Construction"**  
 *Nasrullah Khan¹, Dohyeong Kim², Minju Kim³, Daeho Kim⁴, Dongmin Lee⁵*  
 <!-- Published in *[Conference/Journal Name]*, 2025.   -->
-[[📄 Paper (arXiv)]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5122800) [[🌐 Project Page]](https://github.com/nasazzam/MP-MCWT.git) 
+[[📄 Paper (arXiv)]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5122800)
 
 ---
 
