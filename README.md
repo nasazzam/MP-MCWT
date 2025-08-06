@@ -1,11 +1,30 @@
 
+# 📄 MP-MCWT: Message Passing Strategy For Multi-Camera Worker Tracking in Construction
 
+Official repository for the paper:  
+**"MP-MCWT: Message Passing Strategy For Multi-Camera Worker Tracking in Construction"**  
+*Nasrullah Khan¹, Dohyeong Kim², Minju Kim³, Daeho Kim⁴, Dongmin Lee⁵*  
+<!-- Published in *[Conference/Journal Name]*, 2025.   -->
+[[📄 Paper (arXiv)]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5122800) [[🌐 Project Page]](https://github.com/nasazzam/MP-MCWT.git) 
+
+---
 
 <p align="center">
-  <img src="assets/banner.png" alt="Multi-Camera Annotation Tool" width="400"/>
+  <img src="assets/main.png" alt="Multi-Camera Annotation Tool" width="400"/>
 </p>
 
-# 🎥 Multi-Camera MOT Annotation Tool
+## 📝 Abstract
+> In recent years, computer vision (CV)-based tracking systems have gained significant attention for monitoring the safety and productivity of construction workers. However, current methods struggle with identity association in environments where workers wear similar attire, experience frequent occlusions, and move through distinct camera views. These challenges, common in construction sites, often lead to fragmented trajectories, ID switches, and reduced tracking reliability. To address these challenges, we propose a tracking system that detects workers in individual camera views and integrates these single-camera observations to create multi-camera tracks using a re-identification model and message-passing. To enhance feature extraction for occluded workers and those wearing similar protective gear, we utilize a region-based re-identification model that generates more accurate and refined features. During data association, message-passing incorporates localization and motion consistency to facilitate effective clustering and overall track generation. Experimental results show significant improvements in tracking accuracy, with identification F1 scores (IDF1) of 68.30 for controlled scenes and 85.10 for outdoor environments, accompanied by MOTA scores of 79.7 and 79.2, respectively. The results on the CAMPUS benchmark further validated our approach’s generalization capability, achieving competitive performance on two of its challenging multi-camera sequences. These findings validate that the attained IDF1 and MOTA performance satisfies the operational thresholds required for field deployment, confirming the robustness of the approach under diverse and dynamic construction scenarios. Consequently, the framework provides a robust solution for automated multi-camera monitoring, supporting enhanced safety management and operational performance. 
+---
+## 📌 Dataset Overview
+The dataset consists of:
+- **Images**: Raw frames captured from multiple construction site cameras.
+- **Annotations**: Corresponding tracking annotations folder for gt and pred.
+
+
+================================================= Annotations Tool =====================================================
+
+## 🎥 Multi-Camera MOT Annotation Tool
 
 A **semi-automatic multi-camera annotation tool** that loads multiple video streams and displays them in a canvas grid layout. This enables side-by-side comparison, tracking, and annotation of the same object from multiple views. It supports bounding box creation, ID management, and object re-identification across all cameras, designed to help you efficiently annotate, track, and re-identify objects across multiple camera views.
 > 🛠️ Ideal for **multi-camera tracking datasets**, such as MOT, ReID, and surveillance scenarios.
