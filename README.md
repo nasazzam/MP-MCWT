@@ -37,6 +37,14 @@ The dataset consists of:
 └── README.md # Project documentation
 ```
 
+## Eval
+```text
+> git clone https://github.com/username/MP-MCWT.git
+cd MP-MCWT
+pip install pymotmetrics
+run cmd.txt
+```
+
 
 ================================ Annotations Tool ================================
 
