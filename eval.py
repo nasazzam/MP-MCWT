@@ -104,8 +104,6 @@ def main():
 
     accs = [mm.MOTAccumulator(auto_id=True) for _ in args.gt_files]
 
-    # Use StringIO to hold predictions in memory
-    hota_writers = [io.StringIO() for _ in range(len(history))]
 
     # Process each frame
     for frame_id in tqdm(range(last_frame_idx + 1), desc="Processing detections"):
@@ -128,10 +126,7 @@ def main():
                 ht_boxes.append([x1, y1, x2 - x1, y2 - y1])
                 ht_labels.append(obj.label)
 
-                # Write detection to HOTA format (in memory buffer)
-                hota_writers[cam_id].write(
-                    f"{frame_id},{obj.label},{x1:.2f},{y1:.2f},{x2 - x1:.2f},{y2 - y1:.2f},1,-1,-1,-1\n"
-                )
+                
 
             # Compute distance matrix and update accumulator
             distances = mm.distances.iou_matrix(
@@ -159,4 +154,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
     
