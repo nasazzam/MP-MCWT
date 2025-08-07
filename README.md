@@ -144,7 +144,7 @@ Edit the `checkpoint_frame.json` manually and set your desired frame index.
 - NumPy
 - torchreid
 - Ultralytics
-- [Optional] PyTorch / YOLO model for Auto Detection (CUDA)
+- [Optional] PyTorch (CUDA) for Auto Detection 
 
 ---
 
