@@ -165,5 +165,5 @@ If you use this tool in your research or publications, please cite the following
   author    = {Nasrullah Khan, Dohyeong Kim, Minju Kim, Daeho Kim, Dongmin Lee},
   journal = {Automation in Construction},
   year      = {2025},
-  note    = {Under review},
+  note    = {Published},
 }
